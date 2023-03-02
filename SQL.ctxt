@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SQL
+comment1.params=
+comment1.target=java.sql.Connection\ connect()
+comment2.params=figur\ spielId
+comment2.target=void\ UpdateSpiel(Figur,\ int)
+comment3.params=name\ nutzername\ passwort
+comment3.target=void\ InsertSpieler(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.params=spielerId\ figur
+comment4.target=void\ InsertSpiel(int,\ Figur)
+comment5.params=spielerIdGewinner\ spielerIdVerlierer
+comment5.target=void\ UpdateStatistik(int,\ int)
+numComments=6
