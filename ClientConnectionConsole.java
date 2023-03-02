@@ -8,7 +8,7 @@ public class ClientConnectionConsole {
     public static void main(String[] args) throws IOException {
         String serverAddress = "10.3.0.121"; //Server-IP-Adresse hier einfügen
         int portNumber = 10500; //Port-Nummer hier einfügen
-        System.out.println("Trying to connect to " + "10.3.0.121" + " on port " + 10500);
+        System.out.println("Trying to connect to " + serverAddress + " on port " + portNumber);
         Socket clientSocket = null;
         PrintWriter out = null;
         BufferedReader in = null;
