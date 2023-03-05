@@ -1,0 +1,16 @@
+/ 0 	  = Hintergrund
+/ 1-4-7-9 = Startposition: GELB-GRUEN-ROT-SCHWARZ
+/ 3-5-6-8 = Haus: GRUEN-GELB-ROT-SCHWARZ
+/ a-b-c-d = Startfeld: GELB-GRUEN-ROT-SCHWARZ
+/ w-x-y-z = Letztes Hausfeld für Pathfinding GRUEN-GELB-ROT-SCHWARZ
+1 1 0 0 2 _ b 0 0 4 4 
+1 1 0 0 2 3 2 0 0 4 4 
+0 0 0 0 2 3 2 0 0 0 0 
+0 0 0 0 2 3 2 0 0 0 0 
+a 2 2 2 2 w 2 2 2 2 2 
+_ 5 5 5 x 0 y 6 6 6 _ 
+2 2 2 2 2 z 2 2 2 2 c 
+0 0 0 0 2 8 2 0 0 0 0 
+0 0 0 0 2 8 2 0 0 0 0 
+9 9 0 0 2 8 2 0 0 7 7 
+9 9 0 0 d _ 2 0 0 7 7 
