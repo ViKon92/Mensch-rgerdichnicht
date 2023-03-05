@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FigurFactory
+comment0.text=\r\n\ Erzeugt\ zu\ einer\ Farbe\ ein\ passende\ Figur\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=farbe\ position
+comment1.target=Figur\ erzeugeFigur(Farbe,\ java.awt.Point)
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GUI
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ GUI.\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=
+comment1.target=GUI()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ GUI\r\n
+comment2.params=spielfeld
+comment2.target=void\ hintergrundZeichnen(java.util.ArrayList)
+comment2.text=\r\n\ Diese\ Methode\ zeichnet\ das\ Spielfeld\r\n\ \!\!\!\ Die\ grafische\ Darstellung\ der\ X\ (Spalte)\ und\ Y-Achse\ (Reihe)\ unterscheidet\ sich\ von\ der\ Darstellung\ im\ Array[Reihe][Spalte]\ \!\!\!\r\n\ \r\n\ @param\ Das\ zu\ zeichnende\ Spielfeld\r\n
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment4.params=
+comment4.target=int\ getOffset()
+numComments=5

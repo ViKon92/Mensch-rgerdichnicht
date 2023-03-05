@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Haus
+comment0.text=\r\n\ Das\ Zielfeld,\ welches\ die\ Siegesbedingung\ darstellt\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=farbe\ dateiname\ koordinaten
+comment1.target=Haus(Farbe,\ java.lang.String,\ java.awt.Point)
+comment1.text=\r\n\ Konstruktor\ des\ Hauses\r\n\ \r\n\ @param\ Farbe\ des\ Feldes\r\n\ @param\ Dateipfad\ des\ zu\ lesenden\ Bildes\r\n\ @param\ Koordinaten\ des\ Feldes\r\n
+comment2.params=farbe\ dateiname\ letztesHaus\ koordinaten
+comment2.target=Haus(Farbe,\ java.lang.String,\ boolean,\ java.awt.Point)
+comment2.text=\r\n\ Konstruktor\ des\ Hauses\r\n\ \r\n\ @param\ Farbe\ des\ Feldes\r\n\ @param\ Dateipfad\ des\ zu\ lesenden\ Bildes\r\n\ @param\ Ist\ es\ das\ letzte\ Hausfeld\r\n\ @param\ Koordinaten\ des\ Feldes\r\n
+comment3.params=farbe
+comment3.target=boolean\ istBegebar(Farbe)
+comment3.text=\r\n\ Gibt\ an,\ ob\ das\ Feld\ von\ Figuren\ begangen\ werden\ darf\r\n\ \r\n\ @return\ Wahrheitswert\r\n
+comment4.params=
+comment4.target=boolean\ istLetztesHaus()
+comment4.text=\r\n\ Gibt\ an,\ ob\ es\ sich\ um\ das\ hinterste\ Haus\ handelt\r\n\ \r\n\ @retrun\ Wahrheitswert\r\n
+numComments=5

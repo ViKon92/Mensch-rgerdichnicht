@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IKlickbar
+comment0.text=\r\n\ Alle\ auf\ der\ GUI\ anklickbaren\ Elemente\ sollten\ dieses\ Interface\ implementieren\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=dateipfadBild\ position
+comment1.target=void\ buttonImplementieren(java.lang.String,\ java.awt.Point)
+comment1.text=\r\n\ In\ dieser\ Methode\ sollten\ alle\ Eigenschaften\ des\ JButtons\ definiert\ werden\r\n
+comment2.params=frame
+comment2.target=void\ zeichnen(javax.swing.JFrame)
+comment2.text=\r\n\ Hier\ sollte\ der\ Button\ einem\ JFrame\ hinzugef\u00FCgt\ werden\r\n
+numComments=3

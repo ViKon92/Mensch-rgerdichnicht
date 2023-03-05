@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IZeichenbar
+comment0.text=\r\n\ Alle\ Klassen,\ welche\ statisch\ auf\ der\ GUI\ dargestellt\ werden\ sollen,\ sollten\ dieses\ Interfaces\ implementieren\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=g\ offset
+comment1.target=void\ zeichnen(java.awt.Graphics,\ int)
+comment1.text=\r\n\ Hier\ sollten\ f\u00FCrs\ Zeichnen\ ben\u00F6tigten\ Eigenschaften\ definiert\ werden\r\n
+numComments=2

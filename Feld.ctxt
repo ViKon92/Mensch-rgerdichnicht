@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Feld
+comment0.text=\r\n\ B\u00FCndelt\ alle\ Informationen\ und\ Methoden,\ welche\ alle\ Felderarten\ gemeinsam\ haben\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=farbe\ bildDateiPfad\ koordinaten
+comment1.target=Feld(Farbe,\ java.lang.String,\ java.awt.Point)
+comment1.text=\r\n\ Konstruktor\ des\ Feldes\r\n\ \r\n\ @param\ Farbe\ des\ Feldes\r\n\ @param\ Dateipfad\ des\ zu\ lesenden\ Bildes\r\n
+comment2.params=g\ offset
+comment2.target=void\ zeichnen(java.awt.Graphics,\ int)
+comment3.params=farbe
+comment3.target=boolean\ istBegebar(Farbe)
+comment3.text=\r\n\ Gibt\ an,\ ob\ das\ Feld\ von\ Figuren\ begangen\ werden\ darf\r\n\ \r\n\ @return\ Wahrheitswert\r\n
+comment4.params=
+comment4.target=Farbe\ getFarbe()
+comment4.text=\r\n\ Getter\ f\u00FCr\ die\ Farbe\ des\ Feldes\r\n\ \r\n\ @return\ Farbe\ des\ Feldes\r\n
+comment5.params=
+comment5.target=java.awt.Point\ getKoordinaten()
+comment5.text=\r\n\ Getter\ f\u00FCr\ die\ Koordinaten\ des\ Feldes\r\n\ \r\n\ @return\ Koordinaten\ des\ Feldes\r\n
+comment6.params=
+comment6.target=int\ getGrafischeXKoordinate()
+comment6.text=\r\n\ Getter\ f\u00FCr\ die\ grafische\ Koordinaten\ des\ Feldes\r\n\ \r\n\ @return\ Grafische\ Koordinaten\ des\ Feldes\r\n
+comment7.params=
+comment7.target=int\ getGrafischeYKoordinate()
+comment7.text=\r\n\ Getter\ f\u00FCr\ die\ grafische\ Koordinaten\ des\ Feldes\r\n\ \r\n\ @return\ Grafische\ Koordinaten\ des\ Feldes\r\n
+numComments=8

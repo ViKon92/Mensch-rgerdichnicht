@@ -1,52 +1,121 @@
+import javax.swing.JButton;
+import javax.swing.ImageIcon;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.util.Observable;
+import javax.swing.JFrame;
+import java.awt.Point;
 
 /**
- * Write a description of class Figur here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Diese Klasse stellt eine Spielfigur da
+ * 
+ * @author Mirko Feldmann
  */
-public class Figur
+public class Figur extends Observable implements IKlickbar, ActionListener
 {
-    // instance variables - replace the example below with your own
-    private int x;
-    private int y;
-    private int figurId;
+    private JButton klickbaresBild = new JButton();
+    private Point startposition;
+    private int feldIndex = 0;
+    private Farbe farbe;
+        
     /**
-     * Constructor for objects of class Figur
+     * Konstruktor der Figur
+     * 
+     * @param Der Dateipfad zur Bilddatei
+     * @param Die Farbe der Figur
+     * @param Die Startposition der Figur
      */
-    public Figur()
+    public Figur(String bildPfad, Farbe farbe, Point startposition)
     {
-        // initialise instance variables
-        x = 0;
+        this.farbe = farbe;
+        this.startposition = startposition;
+        buttonImplementieren(bildPfad, startposition);
     }
-
-   public void setFigurId(int id)
-   {
-      this.figurId = id;
-   }
-   
-    public void setX(int x)
-   {
-      this.x = x;
-   }
-   
-    public void setY(int y)
-   {
-      this.y = y;
-   }
-   
-   public int getFigurId()
-   {
-       return figurId;
-   }
-   
-   public int getX()
-   {
-       return x;
-   }
-   
-   public int getY()
-   {
-       return y;
-   }
+    
+    /**
+     * Methode zum Bewegen der Figur
+     * 
+     * @param Der Punkt, zu welchem sich die Figur bewegen soll
+     * @param Das benötigte Offset
+     */
+    public void bewegenAuf(Point p)
+    {
+        klickbaresBild.setLocation(p.y * GUI.getOffset(), p.x * GUI.getOffset());
+    }
+    
+    /**
+     * Implementierung des Buttons 
+     * 
+     * @param Dateipfad des Bildes
+     * @param Der Startpunkt der Figur
+     */
+    public void buttonImplementieren(String dateipfad, Point startposition)
+    {
+        klickbaresBild.setIcon(new ImageIcon(BildDictionary.getBild(dateipfad)));
+        klickbaresBild.addActionListener(this);
+        klickbaresBild.setSize(64, 64);
+        klickbaresBild.setLocation(startposition);
+        klickbaresBild.setVisible(true);
+    }
+    
+    /**
+     * Hinzufügen des Buttons zum Frame
+     * 
+     * @param Das JFrame, welches den Button beinhaltet
+     */
+    public void zeichnen(JFrame frame)
+    {
+        frame.add(klickbaresBild);
+    }
+    
+    /**
+     * Das Klickevent des Buttons
+     * 
+     * @param Das ActionEvent
+     */
+    public void actionPerformed(ActionEvent e)
+    {
+        this.setChanged();
+        this.notifyObservers();
+    }
+    
+    /**
+     * Getter für die Position der Figur
+     * 
+     * @return Punkt der Figur
+     */
+    public Point getPosition()
+    {
+        return klickbaresBild.getLocation();
+    }
+    
+    /**
+     * Getter für die Farbe der Figur
+     * 
+     * @return Farbe der Figur
+     */
+    public Farbe getFarbe()
+    {
+        return farbe;
+    }
+    
+    /**
+     * Getter für den Index der Figurroute
+     * 
+     * @return Farbe der Figur
+     */
+    public int getFeldIndex()
+    {
+        return feldIndex;
+    }
+    
+    /**
+     * Setter für den Index der Figurroute
+     * 
+     * @param Neuer Index
+     */
+    public void setFeldIndex(int index)
+    {
+        feldIndex = index;
+    }
 }

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Startposition
+comment0.text=\r\n\ Hier\ befinden\ sich\ die\ Figuren\ zu\ Beginn\ des\ Spieles\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=farbe\ dateiname\ koordinaten
+comment1.target=Startposition(Farbe,\ java.lang.String,\ java.awt.Point)
+comment1.text=\r\n\ Konstruktor\ der\ Startposition\r\n\ \r\n\ @param\ Farbe\ des\ Feldes\r\n\ @param\ Dateipfad\ des\ zu\ lesenden\ Bildes\r\n\ @param\ Koordinaten\ des\ Feldes\r\n
+comment2.params=farbe
+comment2.target=boolean\ istBegebar(Farbe)
+comment2.text=\r\n\ Gibt\ an,\ ob\ das\ Feld\ von\ Figuren\ begangen\ werden\ darf\r\n\ \r\n\ @return\ Wahrheitswert\r\n
+numComments=3

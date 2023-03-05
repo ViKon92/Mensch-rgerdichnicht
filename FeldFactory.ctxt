@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FeldFactory
+comment0.text=\r\n\ Erzeugt\ zu\ einem\ Identifizierungszeichen\ ein\ Feld\r\n\ \r\n\ @author\ Andr\u00E9\ H\u00FCsing\r\n
+comment1.params=identifizierungszeichen\ koordinaten
+comment1.target=Feld\ erzeugeFeld(java.lang.String,\ java.awt.Point)
+numComments=2

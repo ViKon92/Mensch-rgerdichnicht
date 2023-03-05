@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Spielfeld
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Spielfeld.\r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=
+comment1.target=Spielfeld()
+comment2.params=o\ news
+comment2.target=void\ update(java.util.Observable,\ java.lang.Object)
+comment3.params=pfad
+comment3.target=void\ spielfeldErstellen(java.lang.String)
+comment3.text=\r\n\ Initialisierung\ der\ zweidimensionalen\ ArrayList\ mit\ Objekten\ passend\ zu\ dem\ Spielfeldstring\r\n\ \r\n\ @param\ Pfad\ der\ Datei\r\n
+comment4.params=pfad
+comment4.target=java.lang.String\ spielfeldLesen(java.lang.String)
+comment4.text=\r\n\ Liest\ eine\ Textdatei\ und\ erzeugt\ einen\ String\ der\ das\ Spielfeld\ beschreibt\r\n\ \r\n\ @param\ Pfad\ der\ Datei\r\n\ @return\ Spielfeldzeichenkette\r\n
+numComments=5

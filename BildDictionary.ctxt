@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BildDictionary
+comment0.text=\r\n\ Hier\ werden\ alle\ verwendeten\ Bilder\ festgehalten,\ um\ unn\u00F6tige\ Dateizugriffe\ zu\ minimieren\ \r\n\ \r\n\ @author\ Mirko\ Feldmann\r\n
+comment1.params=dateipfad
+comment1.target=java.awt.image.BufferedImage\ getBild(java.lang.String)
+comment1.text=\r\n\ Gibt\ die\ Bilddatei\ zu\ einem\ Dateipfad\ zur\u00FCck\r\n\r\n\ @param\ Dateipfad\ des\ Bildes\r\n
+comment2.params=dateipfad
+comment2.target=java.awt.image.BufferedImage\ bildLesen(java.lang.String)
+comment2.text=\r\n\ Ein\ neues\ Bild\ wird\ gelesen\ und\ dem\ Dictionary\ hinzugef\u00FCgt\r\n\ \r\n\ @param\ Dateipfad\ des\ Bildes\r\n
+numComments=3
